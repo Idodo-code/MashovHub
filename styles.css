@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('FM9Y.gif'),   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Overlay a gradient for effect */ /* Path to the GIF */
+    background-size: cover; /* Makes sure the background covers the entire screen */
+    background-position: center; /* Centers the background GIF */
+    background-repeat: no-repeat; /* Ensures the GIF doesn't repeat */
+    height: 100vh; /* Makes the background cover the entire viewport height */  
+    color: aliceblue; /* Text color for contrast */
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    height: min-content;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    color: aliceblue;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust both vertically and horizontally */
+} 
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    width: inherit;
+    justify-content: space-evenly;
+}
+.navbar li, .navbar i{
+    list-style: none;
+    height: min-content;
+    padding: 20pt;
+}
+.navbar li a, .navbar i{
+    color: aliceblue;
+    font-size: 20pt;
+    font-weight: bold;
+}
